@@ -60,5 +60,3 @@ class Genre
     end
     @new_array
   end
-
-

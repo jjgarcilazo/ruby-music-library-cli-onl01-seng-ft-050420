@@ -10,22 +10,6 @@ class Genre
     @name = name
     @songs = []
   end
-  def find_by_name(name)
-    self.all.detect {|song| song.name == name}
-  end
-
-  def find_or_create_by_name(name)
-     if self.find_by_name(name)
-       self.find_by_name(name)
-     else
-     song = self.create(name)
-     end
-
-    self.find_by_name(name) || self.create(name)
-
-
-  end
-  end
 
   def self.all
     @@all
@@ -60,3 +44,6 @@ class Genre
     end
     @new_array
   end
+
+
+end

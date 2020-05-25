@@ -83,3 +83,14 @@ class Song
 
 
 end
+
+ require_relative './config/environment'
+
+
+
+ Song.new("Sexy Sadie")
+ song = Song.new("Sexy Sadie")
+ song = Song.create("Sexy Sadie")
+ pop = Genre.new("Pop")
+ ruby ../lib/song.rb
+ song.genre = pop

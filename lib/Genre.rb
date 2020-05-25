@@ -2,8 +2,7 @@ require 'pry'
 
 class Genre
   attr_accessor :name, :musiclibrarycontroller, :musicimporter
-  extend Concerns::Findable
-  @@all = []
+    @@all = []
 
   def initialize(name)
     @name = name

@@ -77,4 +77,3 @@ genre = Genre.new("post-punk")
  pop = Genre.new("Pop")
  ruby ../lib/song.rb
  song.genre = pop
-

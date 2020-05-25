@@ -12,3 +12,4 @@ module Concerns::Findable
          end
        end
      end
+end

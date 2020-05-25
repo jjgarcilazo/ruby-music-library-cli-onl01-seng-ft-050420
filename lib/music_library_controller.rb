@@ -4,4 +4,3 @@ class MusicLibraryController
     importer = MusicImporter.new(patch)
     importer.importer
   end
-  

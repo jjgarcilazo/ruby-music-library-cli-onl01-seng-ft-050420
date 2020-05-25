@@ -60,3 +60,21 @@ class Artist
   end
 
 end
+
+
+genre = Genre.new("post-punk")
+ genre2 = Genre.new("noise")
+ band = Artist.new("Rexy")
+ band2 = Artist.new("Black Dice")
+ song = Song.new("Don't Turn Me Away",band, genre)
+ song = Song.new("Kokomo",band, genre2)
+ band.genres
+
+ Song.new("Sexy Sadie",)
+ Artist
+ song = Song.new("Sexy Sadie")
+ song = Song.create("Sexy Sadie")
+ pop = Genre.new("Pop")
+ ruby ../lib/song.rb
+ song.genre = pop
+

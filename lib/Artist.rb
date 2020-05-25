@@ -60,4 +60,3 @@ class Artist
   end
 
 end
-
